@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Frontend Mentor | social-media-dashboard-with-theme-switcher-master
+    </title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link id="style" rel="stylesheet" href="./css/styles-light.css" />
+  </head>
+  <body>
+    <div class="deco-box"></div>
+    <div id="heading" class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 title">
+          <h2>Social Media Dashboard</h2>
+          <h6>Total Followers : 23,004</h6>
+        </div>
+        <div class="col-lg-6 switcher">
+          <div class="word">
+            <h6>Dark Mode</h6>
+          </div>
+          <label class="switch">
+            <input id="theme-checkbox" type="checkbox" checked />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div id="total" class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="platform-box facebook">
+            <div class="top">
+              <img src="images/icon-facebook.svg" alt="fb" />
+              <div class="username">@nathanf</div>
+            </div>
+            <div class="count">1987</div>
+            <div class="followers">FOLLOWERS</div>
+            <div class="foot">
+              <img src="images/icon-up.svg" alt="up" />
+              <div class="up"><strong>12</strong> Today</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="platform-box twitter">
+            <div class="top">
+              <img src="images/icon-twitter.svg" alt="fb" />
+              <div class="username">@nathanf</div>
+            </div>
+            <div class="count">1044</div>
+            <div class="followers">FOLLOWERS</div>
+            <div class="foot">
+              <img src="images/icon-up.svg" alt="up" />
+              <div class="up"><strong>99</strong> Today</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="platform-box instagram">
+            <div class="top">
+              <img src="images/icon-instagram.svg" alt="fb" />
+              <div class="username">@realnathanf</div>
+            </div>
+            <div class="count">11k</div>
+            <div class="followers">FOLLOWERS</div>
+            <div class="foot">
+              <img src="images/icon-up.svg" alt="up" />
+              <div class="up"><strong>1099</strong> Today</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="platform-box youtube">
+            <div class="top">
+              <img src="images/icon-youtube.svg" alt="fb" />
+              <div class="username">Nathan F.</div>
+            </div>
+            <div class="count">8239</div>
+            <div class="followers">SUBSCRIBERS</div>
+            <div class="foot">
+              <img src="images/icon-down.svg" alt="up" />
+              <div class="down"><strong>144</strong> Today</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="small-heading" class="container-fluid">
+      <div class="small-heading">Overview-Today</div>
+    </div>
+    <div id="today" class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="today-box">
+            <div class="row">
+              <div class="col-lg-6 username">
+                Page Views
+              </div>
+              <div class="col-lg-6 image">
+                <img src="images/icon-facebook.svg" alt="fb" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 today-stat">
+                87
+              </div>
+              <div class="col-lg-6 today-percent">
+                <img src="images/icon-up.svg" alt="fb" />
+                <div class="today-percent-data up">3%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="today-box">
+            <div class="row">
+              <div class="col-lg-6 username">
+                Likes
+              </div>
+              <div class="col-lg-6 image">
+                <img src="images/icon-facebook.svg" alt="fb" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 today-stat">
+                52
+              </div>
+              <div class="col-lg-6 today-percent">
+                <img src="images/icon-down.svg" alt="fb" />
+                <div class="today-percent-data down">2%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="today-box">
+            <div class="row">
+              <div class="col-lg-6 username">
+                Likes
+              </div>
+              <div class="col-lg-6 image">
+                <img src="images/icon-instagram.svg" alt="fb" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 today-stat">
+                5462
+              </div>
+              <div class="col-lg-6 today-percent">
+                <img src="images/icon-up.svg" alt="fb" />
+                <div class="today-percent-data up">2257%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="today-box">
+            <div class="row">
+              <div class="col-lg-6 username">
+                Profile Views
+              </div>
+              <div class="col-lg-6 image">
+                <img src="images/icon-instagram.svg" alt="fb" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 today-stat">
+                52k
+              </div>
+              <div class="col-lg-6 today-percent">
+                <img src="images/icon-up.svg" alt="fb" />
+                <div class="today-percent-data up">1375%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="today-box">
+            <div class="row">
+              <div class="col-lg-6 username">
+                Retweets
+              </div>
+              <div class="col-lg-6 image">
+                <img src="images/icon-twitter.svg" alt="fb" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 today-stat">
+                117
+              </div>
+              <div class="col-lg-6 today-percent">
+                <img src="images/icon-up.svg" alt="fb" />
+                <div class="today-percent-data up">303%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="today-box facebook">
+            <div class="row">
+              <div class="col-lg-6 username">
+                Likes
+              </div>
+              <div class="col-lg-6 image">
+                <img src="images/icon-twitter.svg" alt="fb" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 today-stat">
+                507
+              </div>
+              <div class="col-lg-6 today-percent">
+                <img src="images/icon-up.svg" alt="fb" />
+                <div class="today-percent-data up">553%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="today-box">
+            <div class="row">
+              <div class="col-lg-6 username">
+                Likes
+              </div>
+              <div class="col-lg-6 image">
+                <img src="images/icon-youtube.svg" alt="fb" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 today-stat">
+                107
+              </div>
+              <div class="col-lg-6 today-percent">
+                <img src="images/icon-down.svg" alt="fb" />
+                <div class="today-percent-data down">19%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="today-box">
+            <div class="row">
+              <div class="col-lg-6 username">
+                Total Views
+              </div>
+              <div class="col-lg-6 image">
+                <img src="images/icon-youtube.svg" alt="fb" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 today-stat">
+                1407
+              </div>
+              <div class="col-lg-6 today-percent">
+                <img src="images/icon-down.svg" alt="fb" />
+                <div class="today-percent-data down">12%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Shashank Raghupatro</a>.
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
